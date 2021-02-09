@@ -4,5 +4,5 @@ spec:
   - dockerfile_path: Dockerfile
     git:
       branch: master
-      repo_clone_url: https://github.com/codeneomatrix/sample-docker-merly.git
+      repo_clone_url: https://github.com/neomatrixcode/sample-docker-merly.git
     name: sample-docker-merly

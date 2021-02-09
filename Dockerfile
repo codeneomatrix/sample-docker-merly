@@ -1,6 +1,5 @@
-#docker run -it --rm -p 5000:5000 merly:0.2.1-alpine
-from codeneomatrix/merly:0.2.1-alpine
+#docker run -it --rm -p 5000:5000 merly:1.0.2-alpine
+from neomatrixcode/merly:1.0.2-alpine
 ADD ./* src/
 WORKDIR /src
-#RUN julia package.jl
 CMD julia app.jl

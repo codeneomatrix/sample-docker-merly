@@ -4,5 +4,5 @@ services:
   github:
     branch: master
     deploy_on_push: true
-    repo: codeneomatrix/sample-docker-merly
+    repo: neomatrixcode/sample-docker-merly
   name: sample-docker-merly
