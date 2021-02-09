@@ -13,4 +13,4 @@ content= File("merlyapp.html")
 
   notfound("merlynotfound.html")
 
-start(host = "0.0.0.0", port = (∈("PORT", keys(ENV)) ? parse(Int, ENV["PORT"]) : 5000))
+start(host = "0.0.0.0", port = (∈("PORT", keys(ENV)) ? parse(Int, ENV["PORT"]) : 8080))
